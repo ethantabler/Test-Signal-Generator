@@ -1,0 +1,73 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:MCP6002-xP U1
+U 1 1 60F63B74
+P 3200 2250
+F 0 "U1" H 3350 2550 50  0000 C CNN
+F 1 "MCP6002-xP" H 3400 2450 50  0000 C CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xP U1
+U 2 1 60F66F60
+P 3200 3250
+F 0 "U1" H 3350 3550 50  0000 C CNN
+F 1 "MCP6002-xP" H 3400 3450 50  0000 C CNN
+F 2 "" H 3200 3250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3200 3250 50  0001 C CNN
+	2    3200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xP U1
+U 3 1 60F77451
+P 3200 2250
+F 0 "U1" H 3158 2296 50  0001 L CNN
+F 1 "MCP6002-xP" H 3158 2205 50  0001 L CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3200 2250 50  0001 C CNN
+	3    3200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F7C1A3
+P 3100 2600
+F 0 "#PWR?" H 3100 2350 50  0001 C CNN
+F 1 "GND" H 3105 2427 50  0000 C CNN
+F 2 "" H 3100 2600 50  0001 C CNN
+F 3 "" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2600 3100 2550
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 60F7D07C
+P 7500 2250
+F 0 "BT?" H 7618 2346 50  0000 L CNN
+F 1 "Battery_Cell" H 7618 2255 50  0000 L CNN
+F 2 "" V 7500 2310 50  0001 C CNN
+F 3 "~" V 7500 2310 50  0001 C CNN
+	1    7500 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
